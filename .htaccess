@@ -1,0 +1,3 @@
+RewriteEngine on 
+RewriteCond $1 !^(index.php|public|robots.txt)
+RewriteRule ^(.*)$ /t3e/index.php/$1 [L]

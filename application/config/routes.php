@@ -38,8 +38,9 @@
 |
 */
 
-$route['default_controller'] = "home_word";
+$route['default_controller'] = "site_global";
 $route['404_override'] = 'error_404';
+$route['home'] = 'site_index';
 
 
 /* End of file routes.php */
