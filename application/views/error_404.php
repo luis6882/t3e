@@ -67,18 +67,14 @@
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Error 404 Ups...!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>Esta Pagina no Existe en esta realidad, porfavor vuelve a tu universo para poder entrar</p>
 
-		<p>If you would like to edit this page you'll find it located at: este es</p>
+		<p>Si no te has equivocado de universo revisa la URL que este bien escrita</p>
 		<code>application/views/welcome_message.php</code>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
