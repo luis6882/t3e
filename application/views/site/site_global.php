@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to asd</title>
-
 	<style type="text/css">
 
 	::selection{ background-color: #E13300; color: white; }
@@ -63,8 +57,6 @@
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
-</head>
-<body>
 
 <div id="container">
 	<h1>Global</h1>
@@ -73,11 +65,12 @@
 
 		<p>Estructura</p>
 
-
+		<ul>
+			<li><?php echo anchor('home', 'Home'); ?></li>
+			<?php echo $Prueba; ?>
+			
+		</ul>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
-
-</body>
-</html>

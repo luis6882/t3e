@@ -1,11 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class site_global extends CI_Controller {
+class site_global extends T3E_Controller {
 
 	public function index()
 	{
-		$this->load->database();
-		$this->load->view('site/site_global');
+		$this->load->model('site_global_model');
+		$this->site_global_model->cookies_global();
+		$data['Prueba'] = 'texto de prueba';
+		$this->theme->view('site/site_global',$data);
 	}
 }
 
