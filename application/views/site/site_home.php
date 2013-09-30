@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to asd</title>
 
 	<style type="text/css">
 
@@ -63,8 +58,6 @@
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
-</head>
-<body>
 
 <div id="container">
 	<h1>Index</h1>
@@ -75,6 +68,3 @@
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
-
-</body>
-</html>

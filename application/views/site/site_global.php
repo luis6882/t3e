@@ -63,12 +63,14 @@
 
 	<div id="body">
 
-		<p>Estructura</p>
+		<p><?php echo $this->lang->line('t3r_global_contry'); ?></p>
 
 		<ul>
-			<li><?php echo anchor('home', 'Home'); ?></li>
-			<?php echo $Prueba; ?>
-			
+			<li><a href="home/?contry=cl"><?php echo $this->lang->line('t3r_global_chile'); ?></a></li>
+			<li><a href="home/?contry=ar"><?php echo $this->lang->line('t3r_global_argentina'); ?></a></li>
+			<li><a href="home/?contry=pr"><?php echo $this->lang->line('t3r_global_peru'); ?></a></li>
+			<li><a href="home/?contry=co"><?php echo $this->lang->line('t3r_global_colombia'); ?></a></li>
+			<li><a href="home/?contry=br"><?php echo $this->lang->line('t3r_global_brasil'); ?></a></li>
 		</ul>
 	</div>
 
