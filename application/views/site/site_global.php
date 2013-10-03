@@ -1,78 +1,58 @@
-	<style type="text/css">
+<div class="t3e-slide">
+	<div class="t3e-slide_cont">
+		<div class="t3e-slide-txt">
+			<h1><?php echo $this->lang->line('t3r_int_title_slide_h1'); ?></h1>
+			<p><?php echo $this->lang->line('t3r_int_title_slide_par'); ?></p>
+		</div>
+		<div class="t3e-slide_patern"></div>
+		<div class="t3e-slide-shadown_top"></div>
 
-	::selection{ background-color: #E13300; color: white; }
-	::moz-selection{ background-color: #E13300; color: white; }
-	::webkit-selection{ background-color: #E13300; color: white; }
+		<div class="t3e-slide-pic">
+			<ul class="t3e-slide-pic_ul">
+					<li><img src="images/slide/global_slide_img1.jpg" /></li>
+			</ul>
+			
+		</div>
+		<div class="t3e-slide-shadown_bottom"></div>
+	</div>
+</div>
+<div id="t3e-select_flag">
+	<div class="t3e-select_flag">
+		<ul class="t3e-select_flag-ul">
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
-
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
-
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
-
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
-
-	#body{
-		margin: 0 15px 0 15px;
-	}
-	
-	p.footer{
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
-	
-	#container{
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		-webkit-box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
-
-<div id="container">
-	<h1>Global</h1>
-
-	<div id="body">
-
-		<p><?php echo $this->lang->line('t3r_global_contry'); ?></p>
-
-		<ul>
-			<li><a href="home/?contry=cl"><?php echo $this->lang->line('t3r_global_chile'); ?></a></li>
-			<li><a href="home/?contry=ar"><?php echo $this->lang->line('t3r_global_argentina'); ?></a></li>
-			<li><a href="home/?contry=pr"><?php echo $this->lang->line('t3r_global_peru'); ?></a></li>
-			<li><a href="home/?contry=co"><?php echo $this->lang->line('t3r_global_colombia'); ?></a></li>
-			<li><a href="home/?contry=br"><?php echo $this->lang->line('t3r_global_brasil'); ?></a></li>
+			<li><a class="t3e-select_flag-ar" href="home/?contry=ar">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_ar'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			<li><a class="t3e-select_flag-br" href="home/?contry=br">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_br'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			<li><a class="t3e-select_flag-cl" href="home/?contry=cl">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_cl'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			
+			<li><a class="t3e-select_flag-co" href="home/?contry=co">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_co'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			<li><a class="t3e-select_flag-mx" href="home/?contry=mx">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_mx'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			<li><a class="t3e-select_flag-pe" href="home/?contry=pr">
+					<span class="t3e-btn_txt"><?php echo $this->lang->line('t3r_global_pe'); ?></span>
+					<span class="t3e-btn_img">&nbsp;</span>
+				</a>
+			</li>
+			
 		</ul>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
+

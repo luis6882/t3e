@@ -1,3 +1,9 @@
+<!-- PHP Wrapper - 500 Server Error -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>500 Server Error</title>
 
 	<style type="text/css">
 
@@ -5,6 +11,12 @@
 	::moz-selection{ background-color: #E13300; color: white; }
 	::webkit-selection{ background-color: #E13300; color: white; }
 
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
 
 	a {
 		color: #003399;
@@ -46,14 +58,31 @@
 		margin: 20px 0 0 0;
 	}
 	
+	#container{
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+	}
 	</style>
-
+</head>
+<body>
 <div id="container">
-	<h1>Index</h1>
+	<h1>Error 500 Ups...!</h1>
 
 	<div id="body">
-		<p>Estructura</p>
+		<p>Esta el servidor esta funcionando mal en esta realidad, porfavor vuelve a tu universo para poder entrar</p>
+
+		<p>Si no te has equivocado de universo revisa la URL que este bien escrita o contactate con el administrador...!</p>
+		<code><?
+			  echo "URL: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."<br>\n";
+			  $fixer = "checksuexec ".escapeshellarg($_SERVER['DOCUMENT_ROOT'].$_SERVER['REQUEST_URI']);
+			  echo `$fixer`;
+			?></code>
+
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
+	<p class="footer">Ufff......</p>
 </div>
+
+
+</body></html>

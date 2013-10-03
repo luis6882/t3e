@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es_cl">
 <head>
 <meta http-eqwzv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php echo $this->lang->line('title_page'); ?> <?php if(!$title_page==NULL) {echo " - ".$title_page; } ?></title>
+<title><?php echo $this->lang->line('title_page'); ?> <?php if(!$title_page==NULL) {echo " - ".$title_page; }  ?></title>
 <!-- CSS -->
 <?php 
 	echo link_tag('css/t3e-reset.css'); 
 	echo link_tag('css/jquery-ui.css'); 
-	echo link_tag('css/t3e-base.css'); 
+	echo link_tag('css/t3e-base.css');
+	echo favicon_tag('favicon.ico'); 
+	
 ?>
 
 <!-- JS JQUERY -->

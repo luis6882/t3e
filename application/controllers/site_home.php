@@ -8,6 +8,7 @@ class site_home extends T3E_Controller {
 		$this->session->set_userdata('contry',$contry);
 		$data['title_page'] = $this->lang->line('t3r_home_home');
 		
+		$data['valor'] = "este un valor";
 		$this->theme->view('site/site_home',$data);
 		
 	}
